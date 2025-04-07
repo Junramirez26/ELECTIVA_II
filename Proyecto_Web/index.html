@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Resistencia en Paralelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Resistencia en Paralelo</h2>
+        <label for="res1">Resistencia 1 (Ω):</label>
+        <input type="number" id="res1" placeholder="Ingrese R1">
+        <br>
+        <label for="res2">Resistencia 2 (Ω):</label>
+        <input type="number" id="res2" placeholder="Ingrese R2">
+        
+        <button onclick="calcularResistencia()">Calcular</button>
+        
+        <h3>Resistencia Equivalente: <span id="resultado">0</span> Ω</h3>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
